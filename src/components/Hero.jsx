@@ -18,6 +18,17 @@ const Hero = () => {
 					Github
 				</button>
 			</nav>
+
+			<h1 className='head_text'>
+				Summarize Articles with <br className='max-md:hidden' />
+				<span className='green_gradient'>OpenAI GPT-4</span>
+			</h1>
+			<h2 className='desc'>
+				Streamline your reading experience using Summarly, an open-source tool
+				for article summarization. This innovative solution condenses lengthy
+				articles into easily digestible and succinct summaries, making your
+				reading more efficient.
+			</h2>
 		</header>
 	);
 };
